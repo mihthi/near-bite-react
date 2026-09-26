@@ -1,0 +1,21 @@
+.container {
+  width: 100%;
+}
+
+.title {
+  color: #4f46e5;
+  font-size: 2.5rem;
+  margin-top: 0;
+}
+
+.description {
+  color: #333;
+  font-size: 1.1rem;
+  margin-bottom: 8px;
+}
+
+.note {
+  color: #666;
+  font-size: 14px;
+  margin-top: 4px;
+}
