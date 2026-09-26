@@ -1,4 +1,4 @@
-# Hệ Thống Quản Lý Quán Ăn (Near Bite)
+# Hệ Thống Quản Lý Quán Ăn
 
 Đồ án môn học: Xây dựng hệ thống phần mềm quản lý hoạt động quán ăn.
 
