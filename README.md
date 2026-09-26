@@ -1,16 +1,33 @@
-# React + Vite
+# Hệ Thống Quản Lý Quán Ăn (Near Bite)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Đồ án môn học: Xây dựng hệ thống phần mềm quản lý hoạt động quán ăn.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Mục Tiêu Hệ Thống
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Công Nghệ Sử Dụng
+- **Core Frontend:** React 19, Vite
+- **Quản lý State & Routing:** TanStack Query, TanStack Router
+- **Giao diện & Định dạng:** CSS tùy chỉnh (Flexbox layout)
+- **Quản lý mã nguồn:** Git & GitHub
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Tiến Độ Công Việc Tuần Này
+Trong tuần đầu tiên triển khai đồ án, nhóm đã hoàn thành các công việc cốt lõi sau:
+1. **Thiết lập môi trường phát triển:** Khởi tạo thành công dự án React 19 tích hợp Vite trên máy cá nhân.
+2. **Dựng khung giao diện cơ bản:** Xây dựng trang khởi động (Hello World) và cấu trúc lại thư mục chuẩn (`src/App.jsx`, `src/App.css`, `src/index.css`), căn chỉnh layout trung tâm hoàn chỉnh.
+3. **Quản lý mã nguồn & Kho lưu trữ (Repository):** 
+   - Đẩy mã nguồn thực tế (commit thực chất) lên GitHub chung của nhóm (`mihthi/near-bite-react`).
+---
+
+## 🚀 Hướng Dẫn Cài Đặt và Chạy Dự Án (Local)
+
+Để chạy thử mã nguồn của dự án trên máy cá nhân, bạn thực hiện các bước sau:
+
+1. **Clone repository về máy:**
+   ```bash
+   git clone [https://github.com/mihthi/near-bite-react.git](https://github.com/mihthi/near-bite-react.git)
