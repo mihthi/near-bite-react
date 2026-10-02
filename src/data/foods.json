@@ -1,114 +1,114 @@
 [
   {
-    "id": "f-1",
-    "ten": "Phở Bò Tái Lăn Hà Nội",
+    "id": "1",
+    "ten": "Phở Bò",
     "phanLoai": "Món nước",
-    "moTa": "Thịt bò tươi xào lăn lửa lớn ngập thơm mùi tỏi gừng, nước dùng hầm xương tủy trong suốt 12 tiếng đậm đà vị truyền thống.",
-    "gia": 65000,
-    "anh": "https://images.unsplash.com/photo-1582878826629-29b7ad1cdc43?auto=format&fit=crop&w=800&q=80"
-  },
-  {
-    "id": "f-2",
-    "ten": "Bún Chả Nướng Than Hoa",
-    "phanLoai": "Món chính",
-    "moTa": "Thịt ba chỉ và chả viên nướng xém cạnh trên than hồng, nước chấm chua ngọt kèm dưa góp đu đủ giòn tan và bún tươi.",
+    "moTa": "Bánh phở mềm dai dùng cùng thịt bò thái mỏng, nước dùng hầm từ xương trong nhiều giờ, thêm hành lá, rau thơm và chanh ớt.",
     "gia": 60000,
-    "anh": "https://images.unsplash.com/photo-1569058242253-92a9c755a0ec?auto=format&fit=crop&w=800&q=80"
+    "anh": "https://media-cdn-v2.laodong.vn/storage/newsportal/2024/9/27/1400438/Pho-4.jpg?auto=format&fit=crop&w=800&q=80"
   },
   {
-    "id": "f-3",
-    "ten": "Cơm Tấm Sườn Bì Chả Sài Gòn",
+    "id": "2",
+    "ten": "Bún Riêu",
     "phanLoai": "Món chính",
-    "moTa": "Miếng sườn cốt lết ướp mật ong nướng vàng ươm, kèm chả trứng hấp thơm béo, bì heo thái sợi thính thơm và nước mắm kẹo.",
-    "gia": 70000,
-    "anh": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?auto=format&fit=crop&w=800&q=80"
+    "moTa": "Bún riêu cua với nước dùng chua thanh từ cà chua và giấm bỗng, kết hợp riêu cua, đậu hũ chiên, huyết và rau sống.",
+    "gia": 35000,
+    "anh": "https://storage.googleapis.com/onelife-public/blog.onelife.vn/2023/09/4504b36a-1.png?auto=format&fit=crop&w=800&q=80"
   },
   {
-    "id": "f-4",
-    "ten": "Gỏi Cuốn Tôm Thịt Thanh Mát",
+    "id": "3",
+    "ten": "Cơm Tấm",
+    "phanLoai": "Món chính",
+    "moTa": "Cơm tấm thơm dẻo ăn cùng sườn nướng đậm đà, bì sợi, chả trứng, mỡ hành và nước mắm chua ngọt đặc trưng Sài Gòn.",
+    "gia": 40000,
+    "anh": "https://upload.wikimedia.org/wikipedia/commons/b/b0/C%C6%A1m_T%E1%BA%A5m%2C_Da_Nang%2C_Vietnam.jpg?utm_source=vi.wikipedia.org&utm_campaign=index&utm_content=original?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    "id": "4",
+    "ten": "Gỏi Cuốn",
     "phanLoai": "Khai vị",
-    "moTa": "Bánh tráng dẻo cuộn cùng tôm sú luộc đỏ au, thịt ba rọi mềm, bún và rau thơm, chấm tương đen xay béo bùi rắc lạc rang.",
+    "moTa": "Bánh tráng cuộn tôm, thịt luộc, bún tươi và rau thơm, dùng kèm nước chấm đậu phộng béo bùi và đậm đà.",
     "gia": 45000,
-    "anh": "https://images.unsplash.com/photo-1534422298391-e4f8c172dddb?auto=format&fit=crop&w=800&q=80"
+    "anh": "https://cooponline.vn/tin-tuc/wp-content/uploads/2025/10/goi-cuon-tom-thit-chuan-vi-nuoc-cham-dau-phong-1.png?auto=format&fit=crop&w=800&q=80"
   },
   {
-    "id": "f-5",
-    "ten": "Bánh Mì Pate Thịt Nguội Đặc Biệt",
+    "id": "5",
+    "ten": "Bánh Mì",
     "phanLoai": "Khai vị",
-    "moTa": "Vỏ bánh nướng giòn rụm bên ngoài, ruột xốp mềm quết ngập pate gan nhà làm béo ngậy, thịt xá xíu, chả lụa và dưa leo giòn tan.",
+    "moTa": "Bánh mì vỏ giòn ruột mềm, kẹp pate, thịt nguội, chả lụa, dưa leo, đồ chua và rau thơm.",
     "gia": 35000,
-    "anh": "https://images.unsplash.com/photo-1626804475297-41608ea09aeb?auto=format&fit=crop&w=800&q=80"
+    "anh": "https://cdn2.tuoitre.vn/tcdulichtphcm/media/upload/1-2025/images/2025-03-25/1742898108-481231772_122140861622606002_6478007692031959728_n.jpg?auto=format&fit=crop&w=800&q=80"
   },
   {
-    "id": "f-6",
-    "ten": "Bún Bò Huế Cung Đình Cay Nồng",
+    "id": "6",
+    "ten": "Bún Bò Huế",
     "phanLoai": "Món nước",
-    "moTa": "Sợi bún to tròn trong tô nước súp đượm vị mắm ruốc sả ớt, kèm bắp bò hoa giòn sần sật, chả cua Huế và giò heo mềm tan.",
-    "gia": 75000,
-    "anh": "https://images.unsplash.com/photo-1594998893017-36147cbcae05?auto=format&fit=crop&w=800&q=80"
-  },
-  {
-    "id": "f-7",
-    "ten": "Cá Kho Tộ Đất Nung Miền Tây",
-    "phanLoai": "Món chính",
-    "moTa": "Cá quả kho kẹo nước hàng màu cánh gián đậm đà, tiêu sọ đen giã nhỏ thơm nồng ăn cùng cơm trắng nóng hổi tuyệt hảo.",
-    "gia": 95000,
-    "anh": "https://images.unsplash.com/photo-1519708227418-c8fd9a32b7a2?auto=format&fit=crop&w=800&q=80"
-  },
-  {
-    "id": "f-8",
-    "ten": "Chả Giò Tôm Cua Rế Giòn Rụm",
-    "phanLoai": "Khai vị",
-    "moTa": "Vỏ bánh tráng rế chiên vàng ươm giòn rụm ráo dầu, nhân thịt cua biển, tôm tươi, mộc nhĩ và củ đậu thanh ngọt mát.",
+    "moTa": "Bún bò Huế với nước dùng thơm mùi sả và mắm ruốc, kết hợp bắp bò, giò heo, chả cua, rau sống và sa tế cay nồng.",
     "gia": 55000,
-    "anh": "https://images.unsplash.com/photo-1606787366850-de6330128bfc?auto=format&fit=crop&w=800&q=80"
+    "anh": "https://lalago.vn/wp-content/uploads/2026/01/bun-bo-hue-da-nang.jpg?auto=format&fit=crop&w=800&q=80"
   },
   {
-    "id": "f-9",
-    "ten": "Gà Đồi Nướng Muối Ớt Cơm Lam",
-    "phanLoai": "Món nướng & xào",
-    "moTa": "Thịt gà đồi dai ngọt tự nhiên được tẩm ướp muối ớt rừng Tây Bắc, nướng da vàng giòn kèm ống cơm lam nếp nương dẻo quánh.",
-    "gia": 180000,
-    "anh": "https://images.unsplash.com/photo-1598515214211-89d3c73ae83b?auto=format&fit=crop&w=800&q=80"
-  },
-  {
-    "id": "f-10",
-    "ten": "Bò Lúc Lắc Xào Khoai Tây Chiên",
-    "phanLoai": "Món nướng & xào",
-    "moTa": "Thịt bò thăn thái vuông quân cờ đảo cháy cạnh lửa bốc xém, sốt tiêu đen dậy mùi thơm lừng ăn kèm xà lách và khoai tây vàng.",
-    "gia": 135000,
-    "anh": "https://images.unsplash.com/photo-1544025162-d76694265947?auto=format&fit=crop&w=800&q=80"
-  },
-  {
-    "id": "f-11",
-    "ten": "Bánh Xèo Tôm Nhảy Giòn Tan",
+    "id": "7",
+    "ten": "Bánh Xèo",
     "phanLoai": "Món chính",
-    "moTa": "Vỏ bánh xèo bột gạo pha nước cốt dừa và nghệ vàng ruộm mỏng tanh giòn rụm, nhân tôm đất nhảy tanh tách, giá đỗ và thịt ba rọi.",
+    "moTa": "Bánh xèo vàng giòn với nhân tôm, thịt ba chỉ và giá đỗ, cuốn cùng rau sống rồi chấm nước mắm chua ngọt.",
     "gia": 65000,
-    "anh": "https://images.unsplash.com/photo-1565299585323-38d6b0865b47?auto=format&fit=crop&w=800&q=80"
+    "anh": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQgcUhjccYGruOGqdeGgKszSCEfarj7lo-xCTt61aKH99V3EicbrWppXqQ&s=10?auto=format&fit=crop&w=800&q=80"
   },
   {
-    "id": "f-12",
-    "ten": "Chè Khúc Bạch Hạnh Nhân Thanh Mát",
+    "id": "8",
+    "ten": "Chả Giò",
+    "phanLoai": "Khai vị",
+    "moTa": "Chả giò chiên vàng giòn với nhân thịt, tôm, miến và rau củ, dùng kèm rau sống, bún tươi và nước chấm chua ngọt.",
+    "gia": 55000,
+    "anh": "https://cdn.tgdd.vn/2020/07/CookRecipe/Avatar/cha-gio-hai-san-xot-mayonnaise-thumbnail.jpg?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    "id": "9",
+    "ten": "Bánh Canh",
+    "phanLoai": "Món nước",
+    "moTa": "Bánh canh với sợi bột gạo mềm dai, nước dùng đậm đà, kết hợp thịt heo, tôm, cua hoặc chả cá tùy khẩu vị.",
+    "gia": 50000,
+    "anh": "https://bepmina.vn/wp-content/uploads/2021/05/cach-nau-banh-canh-thit-heo-scaled.jpg?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    "id": "10",
+    "ten": "Chè Bưởi",
     "phanLoai": "Tráng miệng",
-    "moTa": "Từng viên khúc bạch sữa tươi phô mai dẻo mềm béo ngậy, kết hợp nhãn lồng giòn ngọt và hạnh nhân lát nướng thơm phức.",
-    "gia": 35000,
-    "anh": "https://images.unsplash.com/photo-1563805042-7684c019e1cb?auto=format&fit=crop&w=800&q=80"
+    "moTa": "Chè bưởi gồm cùi bưởi giòn dẻo nấu cùng đậu xanh, nước cốt dừa béo thơm và phần nước chè ngọt thanh.",
+    "gia": 40000,
+    "anh": "https://www.huongnghiepaau.com/wp-content/uploads/2019/01/che-buoi-an-giang.jpg?auto=format&fit=crop&w=800&q=80"
   },
   {
-    "id": "f-13",
-    "ten": "Cà Phê Trứng Hà Nội Béo Ngậy",
+    "id": "11",
+    "ten": "Chè Đậu Đỏ",
+    "phanLoai": "Tráng miệng",
+    "moTa": "Chè đậu đỏ nấu mềm bùi với nước đường ngọt thanh, dùng cùng nước cốt dừa béo thơm và đá mát lạnh.",
+    "gia": 40000,
+    "anh": "https://cdn.tgdd.vn/Files/2017/09/11/1020790/cach-nau-che-dau-do-nhanh-mem-don-gian-cho-ngay-ban-ron-202205241021480439.jpg?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    "id": "12",
+    "ten": "Chè Thập Cẩm",
+    "phanLoai": "Tráng miệng",
+    "moTa": "Chè thập cẩm kết hợp nhiều loại đậu, thạch, hạt sen, trái cây và nước cốt dừa, tạo nên vị ngọt mát và nhiều tầng kết cấu.",
+    "gia": 35000,
+    "anh": "https://bibomart.com.vn/camnang//wp-content/media/2025/03/image8-17.jpg?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    "id": "13",
+    "ten": "Cà Phê",
     "phanLoai": "Đồ uống",
-    "moTa": "Cốt cà phê phin Robusta Đắk Lắk đậm đà đắng nhẹ dưới đáy, bên trên là lớp kem trứng đánh bông mịn như mây ngọt ngào béo thơm.",
+    "moTa": "Cà phê rang xay pha phin đậm đà, có thể dùng nóng hoặc thêm sữa đặc để tạo vị ngọt béo hài hòa.",
     "gia": 40000,
     "anh": "https://images.unsplash.com/photo-1514432324607-a09d9b4aefdd?auto=format&fit=crop&w=800&q=80"
   },
   {
-    "id": "f-14",
-    "ten": "Trà Sen Vàng Long Nhãn Hạt Sen",
+    "id": "14",
+    "ten": "Nước mát",
     "phanLoai": "Đồ uống",
-    "moTa": "Hương thơm thanh tao từ trà Oolong ướp hoa sen, quyện vị bùi ngọt của hạt sen ninh nhừ và long nhãn giòn sần sật.",
-    "gia": 45000,
-    "anh": "https://images.unsplash.com/photo-1576092768241-dec231879fc3?auto=format&fit=crop&w=800&q=80"
+    "moTa": "Nước mát thanh nhẹ nấu từ các loại thảo mộc và nguyên liệu tự nhiên, có vị ngọt dịu và giúp giải khát trong ngày nóng.",
+    "gia": 50000,
+    "anh": "https://cdn2.fptshop.com.vn/unsafe/1920x0/filters:format(webp):quality(75)/2024_2_29_638447855533368961_nuoc-mat.jpg?auto=format&fit=crop&w=800&q=80"
   }
 ]
