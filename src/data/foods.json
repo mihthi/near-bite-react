@@ -1,0 +1,50 @@
+[
+  {
+    "id": "1",
+    "ten": "Phở Bò",
+    "phanLoai": "Món nước",
+    "gia": 40000
+  },
+  {
+    "id": "2",
+    "ten": "Bún Riêu",
+    "phanLoai": "Món chính",
+    "gia": 30000
+  },
+  {
+    "id": "3",
+    "ten": "Cơm Tấm",
+    "phanLoai": "Món chính",
+    "gia": 35000
+  },
+  {
+    "id": "4",
+    "ten": "Gỏi Cuốn Tôm Thịt",
+    "phanLoai": "Khai vị",
+    "gia": 45000
+  },
+  {
+    "id": "5",
+    "ten": "Bánh Mì",
+    "phanLoai": "Khai vị",
+    "gia": 35000
+  },
+  {
+    "id": "6",
+    "ten": "Bún Bò Huế",
+    "phanLoai": "Món nước",
+    "gia": 40000
+  },
+  {
+    "id": "7",
+    "ten": "Súp Cua",
+    "phanLoai": "Món chính",
+    "gia": 50000
+  },
+  {
+    "id": "8",
+    "ten": "Chả Giò",
+    "phanLoai": "Khai vị",
+    "gia": 55000
+  }
+]

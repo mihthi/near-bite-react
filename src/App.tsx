@@ -1,5 +1,4 @@
-import React from 'react';
-import './App.css'; // Import file CSS vào đây
+import './App.css'
 
 function App() {
   return (
