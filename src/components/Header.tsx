@@ -1,18 +1,16 @@
 import React from 'react';
 import { CheDoXem } from '../types/food';
-import { Utensils, LayoutGrid, TableProperties, RotateCcw } from 'lucide-react';
+import { Utensils, LayoutGrid, TableProperties } from 'lucide-react';
 
 interface ThuocTinhThanhHeader {
   cheDoXem: CheDoXem;
   doiCheDoXem: (cheDoMoi: CheDoXem) => void;
-  khoiPhucDuLieu: () => void;
   tongSoMon: number;
 }
 
 export const Header: React.FC<ThuocTinhThanhHeader> = ({
   cheDoXem,
   doiCheDoXem,
-  khoiPhucDuLieu,
   tongSoMon,
 }) => {
   return (
@@ -66,18 +64,6 @@ export const Header: React.FC<ThuocTinhThanhHeader> = ({
             </button>
           </nav>
 
-          {/* Vùng 3: Thao tác nhanh khôi phục dữ liệu mẫu */}
-          <div className="flex items-center gap-2">
-            <button
-              onClick={khoiPhucDuLieu}
-              title="Khôi phục lại danh sách món mẫu ban đầu"
-              className="flex items-center gap-1.5 px-3 py-1.5 text-xs font-medium text-stone-600 hover:text-stone-900 hover:bg-stone-100 rounded-xl border border-stone-200 transition-colors cursor-pointer"
-              aria-label="Khôi phục dữ liệu mẫu"
-            >
-              <RotateCcw className="w-3.5 h-3.5 text-stone-500" />
-              <span className="hidden sm:inline">Khôi phục mẫu</span>
-            </button>
-          </div>
         </div>
       </div>
     </header>

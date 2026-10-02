@@ -31,7 +31,7 @@ export interface MonAn {
 // Kiểu dữ liệu cho Popup thông báo thành công
 export interface ThongBaoThanhCong {
   dangMo: boolean;
-  loaiThaoTac: 'them' | 'sua' | 'xoa' | 'xoa-hang-loat' | 'khoi-phuc';
+  loaiThaoTac: 'them' | 'sua' | 'xoa' | 'xoa-hang-loat';
   tieuDe: string;
   noiDung: string;
 }

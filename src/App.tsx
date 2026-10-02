@@ -21,8 +21,9 @@ import { FoodDetailModal } from './components/FoodDetailModal';
 import { FoodFormModal } from './components/FoodFormModal';
 import { ConfirmModal } from './components/ConfirmModal';
 import { SuccessPopupModal } from './components/SuccessPopupModal';
-import { Utensils, Loader2 } from 'lucide-react';
-``
+import { Footer } from './components/Footer';
+import { Loader2 } from 'lucide-react';
+
 // Khởi tạo QueryClient cho TanStack Query với cấu hình thời gian cache (staleTime 5 phút)
 const quanLyTruyVan = new QueryClient({
   defaultOptions: {
@@ -44,10 +45,9 @@ function AppContent() {
   const [dangMoModalBieuMau, setDangMoModalBieuMau] = useState(false);
   const [monAnCanChinhSua, setMonAnCanChinhSua] = useState<MonAn | null>(null);
 
-  // Trạng thái xóa món và khôi phục
+  // Trạng thái xóa món
   const [monAnCanXoa, setMonAnCanXoa] = useState<MonAn | null>(null);
   const [danhSachIdCanXoaHangLoat, setDanhSachIdCanXoaHangLoat] = useState<string[] | null>(null);
-  const [dangMoXacNhanKhoiPhuc, setDangMoXacNhanKhoiPhuc] = useState(false);
 
   // Trạng thái Popup thông báo thành công ở giữa màn hình
   const [thongBaoThanhCong, setThongBaoThanhCong] = useState<ThongBaoThanhCong>({
@@ -165,21 +165,6 @@ function AppContent() {
     },
   });
 
-  // Mutation: Khôi phục danh sách dữ liệu mẫu từ JSON ban đầu
-  const mutationKhoiPhucDuLieu = useMutation({
-    mutationFn: foodApi.khoiPhucDuLieuGoc,
-    onSuccess: (duLieuMau) => {
-      queryClient.invalidateQueries({ queryKey: ['danh-sach-mon-an'] });
-      setDangMoXacNhanKhoiPhuc(false);
-      setThongBaoThanhCong({
-        dangMo: true,
-        loaiThaoTac: 'khoi-phuc',
-        tieuDe: 'Khôi Phục Dữ Liệu Mẫu Thành Công!',
-        noiDung: `Toàn bộ ${duLieuMau.length} món ăn truyền thống ban đầu đã được nạp lại đầy đủ.`,
-      });
-    },
-  });
-
   // Xử lý lưu món ăn (Thêm mới hoặc Cập nhật)
   const xuLyLuuMonAn = (duLieuMon: Omit<MonAn, 'id'> & { id?: string }) => {
     if (duLieuMon.id) {
@@ -211,7 +196,6 @@ function AppContent() {
       <Header
         cheDoXem={cheDoHienTai}
         doiCheDoXem={setCheDoHienTai}
-        khoiPhucDuLieu={() => setDangMoXacNhanKhoiPhuc(true)}
         tongSoMon={danhSachMonAn.length}
       />
 
@@ -239,30 +223,7 @@ function AppContent() {
         )}
       </main>
 
-      {/* Chân trang */}
-      <footer className="border-t border-stone-200 bg-white py-6 mt-12 text-xs text-stone-500">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col sm:flex-row items-center justify-between gap-4">
-          <div className="flex items-center gap-2">
-            <div className="w-5 h-5 rounded-md bg-amber-600 flex items-center justify-center text-white shrink-0">
-              <Utensils className="w-3 h-3" />
-            </div>
-            <span className="font-semibold text-stone-800">Bếp Việt</span>
-            <span aria-hidden="true">·</span>
-            <span>React 19 + Vite + TanStack</span>
-          </div>
-
-          <div className="flex items-center gap-4 text-stone-600 font-mono-numbers">
-            <span>Tổng cộng: {danhSachMonAn.length} món</span>
-            <span aria-hidden="true">·</span>
-            <button
-              onClick={() => setDangMoXacNhanKhoiPhuc(true)}
-              className="text-stone-500 hover:text-amber-700 transition-colors underline underline-offset-4 cursor-pointer"
-            >
-              Khôi phục mẫu
-            </button>
-          </div>
-        </div>
-      </footer>
+      <Footer />
 
       {/* 1. Modal xem chi tiết món ăn (Chỉ Tên, Mô tả, Giá, Phân loại) */}
       <FoodDetailModal
@@ -313,19 +274,7 @@ function AppContent() {
         dongModal={() => setDanhSachIdCanXoaHangLoat(null)}
       />
 
-      {/* 5. Modal xác nhận khôi phục mẫu */}
-      <ConfirmModal
-        dangMo={dangMoXacNhanKhoiPhuc}
-        tieuDe="Khôi phục dữ liệu mẫu ban đầu?"
-        moTaChiTiet="Thao tác này sẽ nạp lại 14 món ăn mẫu ban đầu từ tệp mock JSON (id, tên, phân loại, mô tả, giá, ảnh)."
-        nhanNutXacNhan="Khôi phục lại"
-        nhanNutHuy="Hủy"
-        laHanhDongXoa={false}
-        xuLyXacNhan={() => mutationKhoiPhucDuLieu.mutate()}
-        dongModal={() => setDangMoXacNhanKhoiPhuc(false)}
-      />
-
-      {/* 6. Pop-up thông báo thành công (Thêm, Sửa, Xóa) */}
+      {/* 5. Pop-up thông báo thành công (Thêm, Sửa, Xóa) */}
       <SuccessPopupModal
         thongBao={thongBaoThanhCong}
         dongPopup={() => setThongBaoThanhCong((cu) => ({ ...cu, dangMo: false }))}

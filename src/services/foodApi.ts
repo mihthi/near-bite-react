@@ -78,11 +78,4 @@ export const foodApi = {
     return danhSachId;
   },
 
-  // Khôi phục lại danh sách dữ liệu mẫu từ file JSON ban đầu
-  khoiPhucDuLieuGoc: async (): Promise<MonAn[]> => {
-    await new Promise((resolve) => setTimeout(resolve, 50));
-    const duLieuGoc = duLieuGocTuJson as MonAn[];
-    luuDuLieuVaoBoNho(duLieuGoc);
-    return duLieuGoc;
-  },
 };
