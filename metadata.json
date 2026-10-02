@@ -1,0 +1,6 @@
+{
+  "name": "Bếp Việt - Quản Lý & Thực Đơn Món Ăn",
+  "description": "Ứng dụng thực đơn ẩm thực và quản lý món ăn hiện đại với tìm kiếm, lọc, phân trang và thao tác hàng loạt.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
