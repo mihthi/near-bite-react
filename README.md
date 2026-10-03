@@ -30,4 +30,4 @@ Trong tuần đầu tiên triển khai đồ án, nhóm đã hoàn thành các c
 
 1. **Clone repository về máy:**
    ```bash
-   git clone [https://github.com/mihthi/near-bite-react.git](https://github.com/mihthi/near-bite-react.git)
+   git clone [https://github.com/mihthi/restaurant-react](https://github.com/mihthi/restaurant-react)
