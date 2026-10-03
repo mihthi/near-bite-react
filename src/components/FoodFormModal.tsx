@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { MonAn, DanhMucMonAn } from '../types/food';
 import { DANH_MUC_MON_AN, LINK_ANH_GOI_Y } from '../data/initialFoods';
-//import { SafeImage } from './SafeImage';
+import { SafeImage } from './SafeImage';
 import { X, Sparkles, Check, Image as BiểuTượngẢnh } from 'lucide-react';
 
 interface ThuocTinhModalBieuMau {
@@ -203,7 +203,7 @@ export const FoodFormModal: React.FC<ThuocTinhModalBieuMau> = ({
             {linkAnh && (
               <div className="mt-3 p-3 bg-stone-50 rounded-2xl border border-stone-200 flex items-center gap-3">
                 <div className="w-16 h-14 rounded-xl overflow-hidden shrink-0 border border-stone-200">
-                  {/* <SafeImage duongDanAnh={linkAnh} tenMoTa="Xem trước ảnh món" lopTuyChon="w-full h-full" /> */}
+                  <SafeImage duongDanAnh={linkAnh} tenMoTa="Xem trước ảnh món" lopTuyChon="w-full h-full" />
                 </div>
                 <div className="text-xs text-stone-600 min-w-0">
                   <p className="font-semibold text-stone-800">Khung xem trước ảnh món</p>
